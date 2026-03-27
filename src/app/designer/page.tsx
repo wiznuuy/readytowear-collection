@@ -33,13 +33,26 @@ export default function DesignerPage() {
   return (
     <div className="pb-20">
       <div className="px-5 py-12">
-        <h1 className="font-serif font-light text-3xl tracking-wide">
+        <h1 className="font-serif font-light text-3xl tracking-wide mb-6">
           2026 Designer
         </h1>
+        <div className="flex flex-wrap gap-x-2 gap-y-1 font-sans text-xs text-[#888]">
+          {designers.map((designer, i) => (
+            <span key={designer.id} className="flex items-center gap-2">
+              {i > 0 && <span>・</span>}
+              <a
+                href={`#${designer.id}`}
+                className="hover:text-[#f0ece6] transition-colors"
+              >
+                {designer.name}
+              </a>
+            </span>
+          ))}
+        </div>
       </div>
 
       {designers.map((designer, designerIndex) => (
-        <section key={designer.id} className="mb-24">
+        <section key={designer.id} id={designer.id} className="mb-24 scroll-mt-14">
           <div className="px-5 pt-16 pb-8">
             <span className="font-sans text-[10px] tracking-[0.35em] text-[#666]">
               {String(designerIndex + 1).padStart(2, '0')}
