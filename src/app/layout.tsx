@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import { Cormorant_Garamond, Inter } from 'next/font/google'
+import { Instrument_Serif, Inter } from 'next/font/google'
 import Header from '@/components/Header'
 import './globals.css'
 
-const cormorant = Cormorant_Garamond({
+const instrumentSerif = Instrument_Serif({
   subsets: ['latin'],
-  weight: ['300', '400', '500'],
+  weight: ['400'],
   style: ['normal', 'italic'],
-  variable: '--font-cormorant',
+  variable: '--font-serif',
   display: 'swap',
 })
 
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ko" className={`${cormorant.variable} ${inter.variable}`}>
+    <html lang="ko" className={`${instrumentSerif.variable} ${inter.variable}`}>
       <body className="bg-[#f5f0e8] text-[#1a1a1a] font-sans antialiased">
         <Header />
         <main className="pt-14 min-h-screen">{children}</main>
