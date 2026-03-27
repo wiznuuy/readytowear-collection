@@ -86,14 +86,14 @@ export default function HamburgerMenu() {
                     onClick={close}
                     className="font-sans text-xs tracking-[0.2em] uppercase text-[#888] hover:text-[#f0ece6] transition-colors"
                   >
-                    short clip
+                    2026 collection - short clip
                   </Link>
                   <Link
                     href="/collection/full-video"
                     onClick={close}
                     className="font-sans text-xs tracking-[0.2em] uppercase text-[#888] hover:text-[#f0ece6] transition-colors"
                   >
-                    full video
+                    2026 collection - full video
                   </Link>
                 </div>
               </div>
