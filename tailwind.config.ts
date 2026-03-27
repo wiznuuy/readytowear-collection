@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         serif: ['var(--font-serif)', 'Georgia', 'serif'],
-        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-sans)', 'var(--font-korean)', 'system-ui', 'sans-serif'],
       },
       colors: {
         beige: '#f5f0e8',
