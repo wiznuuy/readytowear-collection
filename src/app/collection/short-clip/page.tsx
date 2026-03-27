@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function ShortClipPage() {
   return (
     <div className="px-5 py-12">
@@ -11,6 +13,15 @@ export default function ShortClipPage() {
         playsInline
         className="w-full"
       />
+
+      <div className="mt-16 pt-8 border-t border-[#2a2a2a]">
+        <Link
+          href="/about"
+          className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#888] hover:text-[#f0ece6] transition-colors"
+        >
+          About →
+        </Link>
+      </div>
     </div>
   )
 }

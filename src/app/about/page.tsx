@@ -98,17 +98,30 @@ export default function AboutPage() {
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#888] mb-1">
             Contact
           </p>
-          <p className="text-xs leading-relaxed">
-            런웨이 디렉/담당자_
-            <br />
-            홍준호{' '}
-            <a
-              href="mailto:hroffjfl@gmail.com"
-              className="text-[#aaa] hover:text-[#f0ece6] transition-colors"
-            >
-              hroffjfl@gmail.com
-            </a>
-          </p>
+          <div className="text-xs leading-relaxed space-y-1">
+            <p>
+              런웨이 디렉/담당자_
+              <br />
+              홍준호{' '}
+              <a
+                href="mailto:hroffjfl@gmail.com"
+                className="text-[#aaa] hover:text-[#f0ece6] transition-colors"
+              >
+                hroffjfl@gmail.com
+              </a>
+            </p>
+            <p>
+              기획 참여_
+              <br />
+              김경민{' '}
+              <a
+                href="mailto:atsuki0427@naver.com"
+                className="text-[#aaa] hover:text-[#f0ece6] transition-colors"
+              >
+                atsuki0427@naver.com
+              </a>
+            </p>
+          </div>
         </div>
 
         <div>

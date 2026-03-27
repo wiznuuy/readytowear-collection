@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const themes = [
   { id: 1, name: 'Homme', src: 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/homme_reduced.mp4' },
   { id: 2, name: 'Japanese', src: 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/japanese_reduced.mp4' },
@@ -25,6 +27,15 @@ export default function FullVideoPage() {
             />
           </section>
         ))}
+      </div>
+
+      <div className="mt-16 pt-8 border-t border-[#2a2a2a]">
+        <Link
+          href="/about"
+          className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#888] hover:text-[#f0ece6] transition-colors"
+        >
+          About →
+        </Link>
       </div>
     </div>
   )

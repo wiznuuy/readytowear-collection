@@ -31,8 +31,8 @@ export const designers: Designer[] = [
   {
     id: 'bmj',
     name: '백민준',
-    instagramHandle: '@worsho.d',
-    instagramUrl: 'https://instagram.com/worsho.d',
+    instagramHandle: '@worksho.b',
+    instagramUrl: 'https://instagram.com/worksho.b',
     email: 'bmj4385@gmail.com',
     themes: [
       { name: 'Homme', photos: range(5).map(n => `runway_bmj_homme${pad(n)}.jpeg`) },
