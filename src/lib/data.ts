@@ -49,7 +49,7 @@ export const designers: Designer[] = [
     themes: [
       { name: 'Homme', photos: range(5).map(n => `runway_lth_homme${pad(n)}.jpeg`) },
       { name: 'Japanese', photos: range(8).map(n => `runway_lth_japanese${pad(n)}.jpeg`) },
-      { name: 'Identity', photos: range(3).map(n => `runway_lth_identity${pad(n)}.jpeg`) },
+      { name: 'Identity', photos: range(2).map(n => `runway_lth_identity${pad(n)}.jpeg`) },
     ],
   },
   {
