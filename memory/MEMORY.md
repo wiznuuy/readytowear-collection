@@ -1,0 +1,2 @@
+- [readytowear-collection project overview](project_overview.md) — Next.js 14 static fashion portfolio, routes, designer IDs, image paths
+- [readytowear-collection tech stack](project_tech.md) — Next.js 14.2.5, Tailwind, npm cache workaround, color/font config

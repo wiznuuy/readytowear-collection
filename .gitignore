@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env files
+.env*
+
+# data (images & videos — hosted on Cloudflare R2)
+data/
+
+# misc
+.DS_Store
