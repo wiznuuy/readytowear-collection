@@ -2,10 +2,9 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
-import { designers, backstagePhotos } from '@/lib/data'
+import { designers } from '@/lib/data'
 
 const R2_RUNWAY = 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/images/runway'
-const R2_BACKSTAGE = 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/images/backstage'
 
 function DesignerPhoto({ src, alt, index }: { src: string; alt: string; index: number }) {
   const [portrait, setPortrait] = useState<boolean | null>(null)
@@ -64,22 +63,6 @@ export default function DesignerPage() {
         </section>
       ))}
 
-      <section>
-        <div className="px-5 pt-16 pb-8">
-          <span className="font-sans text-[10px] tracking-[0.35em] text-[#666]">—</span>
-          <h2 className="font-sans text-xl tracking-wide mt-1">Backstage</h2>
-        </div>
-        <div className="flex flex-col gap-4">
-          {backstagePhotos.map((photo, idx) => (
-            <DesignerPhoto
-              key={photo}
-              src={`${R2_BACKSTAGE}/${photo}`}
-              alt="Backstage"
-              index={idx}
-            />
-          ))}
-        </div>
-      </section>
     </div>
   )
 }

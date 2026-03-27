@@ -107,6 +107,13 @@ export default function HamburgerMenu() {
               2026 Designer
             </Link>
             <Link
+              href="/backstage"
+              onClick={close}
+              className="font-serif font-light text-[1.6rem] tracking-wide hover:opacity-50 transition-opacity"
+            >
+              Backstage
+            </Link>
+            <Link
               href="/contact"
               onClick={close}
               className="font-serif font-light text-[1.6rem] tracking-wide hover:opacity-50 transition-opacity"
