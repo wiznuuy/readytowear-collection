@@ -5,7 +5,7 @@ export default function ContactPage() {
   return (
     <div className="px-5 py-12">
       <h1 className="font-serif font-light text-3xl tracking-wide mb-12">
-        contact
+        Contact
       </h1>
 
       <div className="grid grid-cols-2 gap-x-4 gap-y-12 sm:grid-cols-3 lg:grid-cols-3">
