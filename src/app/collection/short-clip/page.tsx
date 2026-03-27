@@ -4,7 +4,7 @@ export default function ShortClipPage() {
   return (
     <div className="px-5 py-12">
       <h1 className="font-serif font-light text-3xl tracking-wide mb-10">
-        Collection — Short Clip
+        2026 Collection — Short Clip
       </h1>
 
       <video

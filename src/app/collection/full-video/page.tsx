@@ -10,7 +10,7 @@ export default function FullVideoPage() {
   return (
     <div className="px-5 py-12">
       <h1 className="font-serif font-light text-3xl tracking-wide mb-12">
-        Collection — Full Video
+        2026 Collection — Full Video
       </h1>
 
       <div className="flex flex-col gap-16">
