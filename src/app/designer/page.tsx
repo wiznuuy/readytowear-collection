@@ -32,6 +32,12 @@ function DesignerPhoto({ src, alt, index }: { src: string; alt: string; index: n
 export default function DesignerPage() {
   return (
     <div className="pb-20">
+      <div className="px-5 py-12">
+        <h1 className="font-serif font-light text-3xl tracking-wide">
+          2026 Designer
+        </h1>
+      </div>
+
       {designers.map((designer, designerIndex) => (
         <section key={designer.id} className="mb-24">
           <div className="px-5 pt-16 pb-8">

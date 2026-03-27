@@ -32,9 +32,10 @@ function BackstagePhoto({ src, alt, index }: { src: string; alt: string; index: 
 export default function BackstagePage() {
   return (
     <div className="pb-20">
-      <div className="px-5 pt-16 pb-8">
-        <span className="font-sans text-[10px] tracking-[0.35em] text-[#666]">—</span>
-        <h1 className="font-sans text-xl tracking-wide mt-1">Backstage</h1>
+      <div className="px-5 py-12">
+        <h1 className="font-serif font-light text-3xl tracking-wide">
+          Backstage
+        </h1>
       </div>
 
       <div className="flex flex-col gap-4">
