@@ -1,7 +1,7 @@
 const themes = [
-  { id: 1, name: 'Homme', src: 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/homme.mp4' },
-  { id: 2, name: 'Japanese', src: 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/japanese.mp4' },
-  { id: 3, name: 'Identity', src: 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/identity.mp4' },
+  { id: 1, name: 'Homme', src: 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/homme_reduced.mp4' },
+  { id: 2, name: 'Japanese', src: 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/japanese_reduced.mp4' },
+  { id: 3, name: 'Identity', src: 'https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/identity_reduced.mp4' },
 ]
 
 export default function FullVideoPage() {

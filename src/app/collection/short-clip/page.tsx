@@ -6,7 +6,7 @@ export default function ShortClipPage() {
       </h1>
 
       <video
-        src="https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/shortclip.mp4"
+        src="https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/videos/shortclip_reduced.mp4"
         controls
         playsInline
         className="w-full"
