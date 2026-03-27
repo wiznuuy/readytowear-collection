@@ -111,14 +111,14 @@ export default function HamburgerMenu() {
               onClick={close}
               className="font-serif font-light text-[1.6rem] tracking-wide hover:opacity-50 transition-opacity"
             >
-              contact
+              Contact
             </Link>
             <Link
               href="/about"
               onClick={close}
               className="font-serif font-light text-[1.6rem] tracking-wide hover:opacity-50 transition-opacity"
             >
-              about
+              About
             </Link>
           </nav>
         </div>

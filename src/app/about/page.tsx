@@ -14,14 +14,15 @@ export default function AboutPage() {
       </div>
 
       {/* Photo */}
-      <div className="relative w-full aspect-[4/5] mb-10 bg-[#ede8df]">
+      <div className="mb-10 bg-[#ede8df]">
         <Image
           src="https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/images/about.jpeg"
           alt="2026 Identity Collection"
-          fill
-          priority
-          className="object-cover"
+          width={0}
+          height={0}
           sizes="(max-width: 640px) 100vw, 576px"
+          priority
+          className="w-full h-auto"
         />
       </div>
 

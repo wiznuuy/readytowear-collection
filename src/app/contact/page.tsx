@@ -11,13 +11,14 @@ export default function ContactPage() {
       <div className="grid grid-cols-2 gap-x-4 gap-y-12 sm:grid-cols-3 lg:grid-cols-3">
         {designers.map((designer) => (
           <div key={designer.id}>
-            <div className="relative aspect-[3/4] mb-3 bg-[#ede8df]">
+            <div className="mb-3 bg-[#ede8df]">
               <Image
                 src={`https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/images/designer_${designer.id}.jpeg`}
                 alt={designer.name}
-                fill
+                width={0}
+                height={0}
                 sizes="(max-width: 640px) 50vw, 33vw"
-                className="object-cover"
+                className="w-full h-auto"
               />
             </div>
             <h2 className="font-serif font-light text-lg mb-2 tracking-wide">

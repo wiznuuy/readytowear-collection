@@ -58,16 +58,17 @@ function EditorialGrid({
   const groups = buildLayout(photos)
 
   return (
-    <div className="flex flex-col gap-[3px]">
+    <div className="flex flex-col gap-4">
       {groups.map((group, idx) => {
         if (group.type === 'full') {
           return (
-            <div key={idx} className="relative aspect-[3/2]">
+            <div key={idx}>
               <Image
                 src={`${basePath}/${group.photo}`}
-                fill
+                width={0}
+                height={0}
                 sizes="100vw"
-                className="object-cover"
+                className="w-full h-auto"
                 alt={alt}
               />
             </div>
@@ -78,28 +79,24 @@ function EditorialGrid({
         // pair-r: left=flex-1 offset down, right=58% at top
         const reversed = group.type === 'pair-r'
         return (
-          <div key={idx} className="flex items-start gap-[3px]">
-            <div
-              className={`relative aspect-[3/4] shrink-0 ${
-                reversed ? 'w-[40%] mt-10' : 'w-[58%]'
-              }`}
-            >
+          <div key={idx} className="flex items-start gap-4">
+            <div className={`shrink-0 ${reversed ? 'w-[40%] mt-10' : 'w-[58%]'}`}>
               <Image
                 src={`${basePath}/${group.left}`}
-                fill
+                width={0}
+                height={0}
                 sizes="60vw"
-                className="object-cover"
+                className="w-full h-auto"
                 alt={alt}
               />
             </div>
-            <div
-              className={`relative aspect-[3/4] flex-1 ${reversed ? '' : 'mt-10'}`}
-            >
+            <div className={`flex-1 ${reversed ? '' : 'mt-10'}`}>
               <Image
                 src={`${basePath}/${group.right}`}
-                fill
+                width={0}
+                height={0}
                 sizes="40vw"
-                className="object-cover"
+                className="w-full h-auto"
                 alt={alt}
               />
             </div>
