@@ -2,10 +2,7 @@ import Image from 'next/image'
 
 export default function HomePage() {
   return (
-    <div
-      className="relative overflow-hidden"
-      style={{ height: 'calc(100vh - 56px)' }}
-    >
+    <div className="relative overflow-hidden -mt-14 h-screen">
       <Image
         src="https://pub-ff7f4d3282454fbbaf711211f0b27d0a.r2.dev/images/main.jpeg"
         alt="Ready to Wear Collection 2026"

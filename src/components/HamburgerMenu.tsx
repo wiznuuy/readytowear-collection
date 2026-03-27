@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-export default function HamburgerMenu() {
+export default function HamburgerMenu({ isHome = false }: { isHome?: boolean }) {
   const [isOpen, setIsOpen] = useState(false)
   const [collectionOpen, setCollectionOpen] = useState(false)
 
@@ -20,9 +20,9 @@ export default function HamburgerMenu() {
         className="flex flex-col justify-center gap-[6px] p-1 z-10"
         aria-label="메뉴 열기"
       >
-        <span className="block w-[22px] h-px bg-[#1a1a1a]" />
-        <span className="block w-[22px] h-px bg-[#1a1a1a]" />
-        <span className="block w-[22px] h-px bg-[#1a1a1a]" />
+        <span className={`block w-[22px] h-px ${isHome ? 'bg-white' : 'bg-[#1a1a1a]'}`} />
+        <span className={`block w-[22px] h-px ${isHome ? 'bg-white' : 'bg-[#1a1a1a]'}`} />
+        <span className={`block w-[22px] h-px ${isHome ? 'bg-white' : 'bg-[#1a1a1a]'}`} />
       </button>
 
       {/* Dark overlay */}
