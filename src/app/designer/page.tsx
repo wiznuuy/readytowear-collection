@@ -116,7 +116,7 @@ export default function DesignerPage() {
         <section key={designer.id} className="mb-24">
           {/* Designer header */}
           <div className="px-5 pt-16 pb-8">
-            <span className="font-sans text-[10px] tracking-[0.35em] text-[#c0bab2]">
+            <span className="font-sans text-[10px] tracking-[0.35em] text-[#666]">
               {String(designerIndex + 1).padStart(2, '0')}
             </span>
             <h2 className="font-serif italic font-light text-[3rem] leading-none tracking-wide mt-1">
@@ -127,7 +127,7 @@ export default function DesignerPage() {
           {/* Themes */}
           {designer.themes.map((theme) => (
             <div key={theme.name} className="mb-12">
-              <p className="font-sans text-[10px] tracking-[0.45em] uppercase text-[#c0bab2] px-5 mb-4">
+              <p className="font-sans text-[10px] tracking-[0.45em] uppercase text-[#666] px-5 mb-4">
                 {theme.name}
               </p>
               <EditorialGrid
@@ -143,7 +143,7 @@ export default function DesignerPage() {
       {/* Backstage */}
       <section>
         <div className="px-5 pt-16 pb-8">
-          <span className="font-sans text-[10px] tracking-[0.35em] text-[#c0bab2]">
+          <span className="font-sans text-[10px] tracking-[0.35em] text-[#666]">
             —
           </span>
           <h2 className="font-serif italic font-light text-[3rem] leading-none tracking-wide mt-1">

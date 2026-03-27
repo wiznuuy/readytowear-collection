@@ -14,7 +14,7 @@ export default function FullVideoPage() {
       <div className="flex flex-col gap-16">
         {themes.map(({ id, name, src }) => (
           <section key={id}>
-            <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#999] mb-4">
+            <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#888] mb-4">
               Theme {id} | {name}
             </p>
             <video

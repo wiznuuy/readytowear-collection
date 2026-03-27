@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-export default function HamburgerMenu({ isHome = false }: { isHome?: boolean }) {
+export default function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false)
   const [collectionOpen, setCollectionOpen] = useState(false)
 
@@ -20,9 +20,9 @@ export default function HamburgerMenu({ isHome = false }: { isHome?: boolean }) 
         className="flex flex-col justify-center gap-[6px] p-1 z-10"
         aria-label="메뉴 열기"
       >
-        <span className={`block w-[22px] h-px ${isHome ? 'bg-white' : 'bg-[#1a1a1a]'}`} />
-        <span className={`block w-[22px] h-px ${isHome ? 'bg-white' : 'bg-[#1a1a1a]'}`} />
-        <span className={`block w-[22px] h-px ${isHome ? 'bg-white' : 'bg-[#1a1a1a]'}`} />
+        <span className="block w-[22px] h-px bg-[#f0ece6]" />
+        <span className="block w-[22px] h-px bg-[#f0ece6]" />
+        <span className="block w-[22px] h-px bg-[#f0ece6]" />
       </button>
 
       {/* Dark overlay */}
@@ -36,7 +36,7 @@ export default function HamburgerMenu({ isHome = false }: { isHome?: boolean }) 
 
       {/* Menu Panel — 2/3 of screen width */}
       <div
-        className={`fixed top-0 left-0 h-full z-50 bg-[#f5f0e8] w-[66.666vw] max-w-[340px]
+        className={`fixed top-0 left-0 h-full z-50 bg-[#111111] w-[66.666vw] max-w-[340px]
           transition-transform duration-300 ease-in-out
           ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
       >
@@ -80,18 +80,18 @@ export default function HamburgerMenu({ isHome = false }: { isHome?: boolean }) 
                   collectionOpen ? 'max-h-24 mt-3' : 'max-h-0'
                 }`}
               >
-                <div className="flex flex-col gap-3 ml-3 border-l border-[#ddd8cf] pl-4">
+                <div className="flex flex-col gap-3 ml-3 border-l border-[#333] pl-4">
                   <Link
                     href="/collection/short-clip"
                     onClick={close}
-                    className="font-sans text-xs tracking-[0.2em] uppercase text-[#777] hover:text-[#1a1a1a] transition-colors"
+                    className="font-sans text-xs tracking-[0.2em] uppercase text-[#888] hover:text-[#f0ece6] transition-colors"
                   >
                     short clip
                   </Link>
                   <Link
                     href="/collection/full-video"
                     onClick={close}
-                    className="font-sans text-xs tracking-[0.2em] uppercase text-[#777] hover:text-[#1a1a1a] transition-colors"
+                    className="font-sans text-xs tracking-[0.2em] uppercase text-[#888] hover:text-[#f0ece6] transition-colors"
                   >
                     full video
                   </Link>

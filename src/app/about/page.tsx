@@ -5,7 +5,7 @@ export default function AboutPage() {
     <div className="px-5 py-12 max-w-xl mx-auto">
       {/* Title */}
       <div className="mb-10">
-        <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-[#999] mb-2">
+        <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-[#888] mb-2">
           Ready to wear collection in Seoul
         </p>
         <h1 className="font-serif font-light text-4xl tracking-wide">
@@ -27,19 +27,19 @@ export default function AboutPage() {
       </div>
 
       {/* Site note */}
-      <p className="font-sans text-sm text-[#555] leading-relaxed mb-8">
+      <p className="font-sans text-sm text-[#c8c4be] leading-relaxed mb-8">
         본 사이트는 포트폴리오 사이트입니다.
         <br />
         추후 해당시즌 팀원 등 아티스트와 연결 된 활동은 해당 사이트를 통해
         추가적으로 업로드 예정입니다.
       </p>
 
-      <hr className="border-[#ddd8cf] mb-8" />
+      <hr className="border-[#2a2a2a] mb-8" />
 
       {/* Identity text */}
       <div className="mb-10">
         <h2 className="font-serif font-light text-2xl mb-6">Identity</h2>
-        <div className="font-sans text-sm text-[#444] leading-[2] space-y-5">
+        <div className="font-sans text-sm text-[#c8c4be] leading-[2] space-y-5">
           <p>
             창작을 시작하는 학생을 포함한 많은 초기 디자이너들은 짧은 시간
             안에 결과를 만들어내야 하는 환경 속에서, 자신의 기준을
@@ -81,21 +81,21 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <hr className="border-[#ddd8cf] mb-8" />
+      <hr className="border-[#2a2a2a] mb-8" />
 
       {/* Note */}
-      <div className="font-sans text-xs text-[#666] leading-relaxed space-y-1 mb-8">
+      <div className="font-sans text-xs text-[#aaa] leading-relaxed space-y-1 mb-8">
         <p>정기적인 활동은 없음을 알립니다.</p>
         <p>새 프로젝트 참여 의사와 지원 등 여러 활동 컨택 가능합니다.</p>
         <p>학생 디자이너의 활동을 적극적으로 지원합니다.</p>
       </div>
 
-      <hr className="border-[#ddd8cf] mb-8" />
+      <hr className="border-[#2a2a2a] mb-8" />
 
       {/* Credits */}
-      <div className="font-sans text-sm text-[#444] space-y-5 pb-16">
+      <div className="font-sans text-sm text-[#c8c4be] space-y-5 pb-16">
         <div>
-          <p className="text-[10px] tracking-[0.3em] uppercase text-[#999] mb-1">
+          <p className="text-[10px] tracking-[0.3em] uppercase text-[#888] mb-1">
             Contact
           </p>
           <p className="text-xs leading-relaxed">
@@ -104,7 +104,7 @@ export default function AboutPage() {
             홍준호{' '}
             <a
               href="mailto:hroffjfl@gmail.com"
-              className="text-[#666] hover:text-[#1a1a1a] transition-colors"
+              className="text-[#aaa] hover:text-[#f0ece6] transition-colors"
             >
               hroffjfl@gmail.com
             </a>
@@ -112,7 +112,7 @@ export default function AboutPage() {
         </div>
 
         <div>
-          <p className="text-[10px] tracking-[0.3em] uppercase text-[#999] mb-1">
+          <p className="text-[10px] tracking-[0.3em] uppercase text-[#888] mb-1">
             2026 작업자_
           </p>
           <div className="text-xs leading-relaxed space-y-1">
@@ -120,7 +120,7 @@ export default function AboutPage() {
               Photographer:{' '}
               <a
                 href="mailto:jadeisahardstone@gmail.com"
-                className="text-[#666] hover:text-[#1a1a1a] transition-colors"
+                className="text-[#aaa] hover:text-[#f0ece6] transition-colors"
               >
                 jadeisahardstone@gmail.com
               </a>
@@ -129,7 +129,7 @@ export default function AboutPage() {
               Videographer:{' '}
               <a
                 href="mailto:jhshin8208@gmail.com"
-                className="text-[#666] hover:text-[#1a1a1a] transition-colors"
+                className="text-[#aaa] hover:text-[#f0ece6] transition-colors"
               >
                 jhshin8208@gmail.com
               </a>
@@ -140,7 +140,7 @@ export default function AboutPage() {
                 href="https://instagram.com/g.a.m.y.i"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666] hover:text-[#1a1a1a] transition-colors"
+                className="text-[#aaa] hover:text-[#f0ece6] transition-colors"
               >
                 @g.a.m.y.i
               </a>

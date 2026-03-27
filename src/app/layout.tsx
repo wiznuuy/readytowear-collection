@@ -37,7 +37,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" className={`${instrumentSerif.variable} ${instrumentSans.variable} ${notoSansKR.variable}`}>
-      <body className="bg-[#f5f0e8] text-[#1a1a1a] font-sans antialiased">
+      <body className="bg-[#111111] text-[#f0ece6] font-sans antialiased">
         <Header />
         <main className="pt-14 min-h-screen">{children}</main>
       </body>
