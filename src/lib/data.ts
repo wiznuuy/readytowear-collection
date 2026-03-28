@@ -45,7 +45,7 @@ export const designers: Designer[] = [
     name: '이태현',
     instagramHandle: '@otaeen',
     instagramUrl: 'https://instagram.com/otaeen',
-    email: '',
+    email: 'taehyun_1ee@naver.com',
     themes: [
       { name: 'Homme', photos: range(5).map(n => `runway_lth_homme${pad(n)}.jpeg`) },
       { name: 'Japanese', photos: range(8).map(n => `runway_lth_japanese${pad(n)}.jpeg`) },
